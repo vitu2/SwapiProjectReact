@@ -8,8 +8,8 @@ function NavBar() {
         <Menu inverted className='Container-style'>
             <Container>
 
-               <Link to='/'> <Menu.Item name='API Swapi' /> </Link> 
-               <Link to='people'> <Menu.Item name='people' /> </Link> 
+               <Link to='/'> <Menu.Item name='People' /> </Link> 
+               <Link to='sobre'> <Menu.Item name='Sobre' /> </Link> 
                 
             </Container>
         </Menu>

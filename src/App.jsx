@@ -31,8 +31,8 @@ function App() {
         </Dimmer>
       ) : (
         <Routes>
-        <Route path='/' element={<ApiSwapi/>}/>
-        <Route path='/people' element={<People data={people}/>}/>
+        <Route path='/' element={<People data={people}/>}/>
+        <Route path='/sobre' element={<ApiSwapi />}/>
       </Routes>
       )
     }
