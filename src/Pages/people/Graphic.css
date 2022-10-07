@@ -1,0 +1,39 @@
+.container-graphic{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 45vh;
+    min-width: 75vw;
+}
+
+@media (max-width:991px){
+    .container-graphic{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        min-height: 45vh;
+        min-width: 45vw;
+        border-radius: 10px 40px;
+    }
+
+    .graphic{
+        display: flex;
+        justify-content: center;
+        width: 40vw;
+        
+    }
+}
+
+@media (max-width:880px){
+    .container-graphic{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 45vh;
+        min-width: 75vw;
+    }
+}
+

@@ -1,0 +1,22 @@
+.teste{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 150vh;
+    width: 60vw;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+@media (max-width:991px){
+    .teste{
+        width: 100vw;
+    }
+}
+
+
