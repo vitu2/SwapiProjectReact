@@ -1,10 +1,13 @@
 .container-graphic{
     display: flex;
     flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
     align-items: center;
     min-height: 45vh;
-    min-width: 75vw;
+    max-width: 75vw;
+
 }
 
 @media (max-width:991px){

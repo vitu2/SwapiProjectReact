@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Card, CardContent, CardDescription, Grid } from 'semantic-ui-react';
 import Graphic from './Graphic'
+import 'semantic-ui-css/semantic.min.css'
 import './People.css'
 
 
@@ -12,15 +13,15 @@ export default function People({ data }) {
     <>
     <Graphic />
     <h1>People</h1>
-    <div className="teste">
+    <div className="cards-container">
     <Grid columns={2} >
       {data.map((people, i) => {
         return (
           <Grid.Column key={i}>
-            <Card >
+            <Card fluid>
               <Card.Content>
                 <Card.Header>Name: {people.name}</Card.Header>
-                <Card.Description  >
+                <Card.Description>
                   <strong>Birth Year</strong>
                   <p >{people.birth_year}</p>
                   <strong>Eye Color</strong>

@@ -9,7 +9,7 @@ export default function Graphic() {
             <h2>Skin Color</h2>
             <Chart className="graphic"
             type="donut"
-            width={400}
+            width={380}
             series={[2, 1, 1, 1, 4]}
 
             options={{
@@ -21,7 +21,7 @@ export default function Graphic() {
             <h2>Birth Year</h2>
             <Chart className="graphic"
             type="donut"
-            width={400}
+            width={380}
             series={[2, 1, 1, 1, 1, 1,1,1,1]}
 
             options={{

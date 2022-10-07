@@ -1,4 +1,4 @@
-.teste{
+.cards-container{
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -7,6 +7,12 @@
     min-height: 150vh;
     width: 60vw;
     border-radius: 20px;
+}
+
+.shadown{
+    -webkit-box-shadow: 6px 3px 18.5px 3px #000000;
+    -moz-box-shadow: 6px 3px 18.5px 3px #000000;
+    box-shadow: 6px 3px 18.5px 3px #000000;
 }
 
 h1{
