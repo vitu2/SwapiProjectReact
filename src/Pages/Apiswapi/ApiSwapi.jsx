@@ -12,11 +12,11 @@ export default function ApiSwapi() {
         <img width={100} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
         <img width={100} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /><br /><br />
 
-        Foi um desafio fazer a tela de login usando Javascript puro, tive que estudar e rever alguns conceitos, mas foi muito
-        interessante trabalhar neste projeto, link para o respositorio desse projeto no GitHub: <a href="https://github.com/vitu2/SwapiProjectVanilla">Login em JavaScript</a> puro.
+        Foi um desafio fazer a tela de login usando Javascript puro, tive que estudar e rever alguns conceitos, mas foi muito interessante trabalhar neste projeto,
+        link para o repositório desse projeto no GitHub: <a href="https://github.com/vitu2/SwapiProjectVanilla">Login em JavaScript</a> puro.
         <br /><br />
-        Para a segunda parte desse projeto ultilizei as seguintes tecnologias React usando os hooks useState e UseEffect, a ferrementa FetchApi React,
-        para os graficos usei o React-Apexcharts, para os cards e navbar usei o semantic ui e semantic ui css, link para o repositorio da segunda parte em react <a href="https://github.com/vitu2/SwapiProjectVanilla">Projeto em React</a> 
+        Para a segunda parte desse projeto utilizei as seguintes tecnologias React usando os hooks useState e UseEffect, a ferramenta FetchApi React,
+        para os gráficos usei o React-Apexcharts, para os cards e navbar usei o semantic ui e semantic ui css, link para o repositório da segunda parte em react<a href="https://github.com/vitu2/SwapiProjectVanilla">Projeto em React</a> 
         <br /><br />
 
         <img width={90} src="https://seeklogo.com/images/S/semantic-ui-logo-AFDC4C7E31-seeklogo.com.png" /> 
